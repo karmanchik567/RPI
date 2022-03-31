@@ -74,12 +74,16 @@ a.nav_butt:hover, a.nav_butt1:hover {
    color: white;
 }
 
-.nav-logo {
-   background: url("images/Logo.jpeg");
+a.nav_logo {
+   background-image: url("images/icon.png");
    display: inline-block;
    width: 153px;
    height: 108px;
    margin-right: auto;
+}
+
+.nav_logo:hover {
+   background-color: white;
 }
 
 .size {
