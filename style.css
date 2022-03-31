@@ -69,12 +69,29 @@ a.nav_link:first-child {
    color: aqua;
 }
 
+a.nav_butt:hover, a.nav_butt1:hover {
+   background-color: #ef5966;
+   color: white;
+}
+
 .nav-logo {
    background: url("images/Logo.jpeg");
    display: inline-block;
    width: 153px;
    height: 108px;
    margin-right: auto;
+}
+
+.size {
+   transform: rotate(90deg);
+}
+
+.big_red_block a {
+   position: relative;
+   left: 500px;
+   bottom: 67px;
+   transform: rotate(90deg);
+   color: white;
 }
 
 .buttons {
@@ -92,7 +109,7 @@ a.nav_link:first-child {
    height: 89px;
    text-align: center;
    font-size: 16px;
-   padding-top: 30px;
+   padding-top: 35px;
    box-sizing: border-box;
    margin-left: 5px;
    text-decoration: none;
@@ -106,7 +123,7 @@ a.nav_link:first-child {
    height: 89px;
    text-align: center;
    font-size: 16px;
-   padding-top: 30px;
+   padding-top: 35px;
    box-sizing: border-box;
    margin-left: 5px;
    text-decoration: none;
@@ -118,6 +135,7 @@ a.nav_link:first-child {
    display: flex;
    justify-content: space-between;
    background: rgb(5, 174, 204);
+   margin-left: 30px;
 }
 
 a.menu-btn {
@@ -127,6 +145,11 @@ a.menu-btn {
    text-align: center;
    display: inline-block;
    text-decoration: none;
+}
+
+a.menu-btn:hover {
+   background-color: white;
+   color: #ef5966;
 }
 
 a:hover {
@@ -878,35 +901,35 @@ a.now {
 }
 
 .rss {
-   width: 55px;
+   width: 54px;
    height: 55px;
    margin-right: 10px;
    background-image: url("images/wifi.png");
 }
 
 .face {
-   width: 55px;
+   width: 54px;
    height: 55px;
    margin-right: 10px;
    background-image: url("images/face.png");
 }
 
 .twi {
-   width: 55px;
+   width: 54px;
    height: 55px;
    margin-right: 10px;
    background-image: url("images/twi.png");
 }
 
 .flick {
-   width: 55px;
+   width: 54px;
    height: 55px;
    margin-right: 10px;
    background-image: url("images/flick.png");
 }
 
 .google {
-   width: 55px;
+   width: 54px;
    height: 55px;
    background-image: url("images/google.png");
 }
@@ -960,4 +983,8 @@ footer {
 
 span.red {
    color: #ef5966;
+}
+
+a.rss:hover, a.face:hover, a.twi:hover, a.flick:hover, a.google:hover {
+   background-color: white;
 }
