@@ -373,16 +373,17 @@ p.woman_text {
    flex-direction: row;
 }
 
-p.baby_shop {
+a.baby_shop {
    width: 103px;
    height: 55px;
    background-color: #05aecc;
    color: white;
    text-align: center;
    padding: 18px 10px 0 10px;
+   text-decoration: none;
 }
 
-p.baby_shop:hover {
+a.baby_shop:hover {
   background-color:#ef5966;
 }
 
@@ -443,13 +444,19 @@ main {
    margin-bottom: 27px;
 }
 
-span.new_prod_text {
+a.new_prod_text {
    position: relative;
    top: 60px;
    left: 40px;
    font-size: 30px;
    height: 48px;
    color: #00a1be;
+   text-decoration: none;
+}
+
+a.new_prod_text:hover {
+   background-color: white;
+   color: #ef5966;
 }
 
 .left_button {
@@ -649,8 +656,9 @@ a.description {
    color: #05aecc;
 }
 
-a.description:hover {
+.feat_title a:hover {
    color: #ef5966;
+   background-color: white;
 }
 
 .who_we_are {
@@ -959,7 +967,7 @@ footer {
    width: 1170px;
    height: 64px;
    border-bottom: 1px solid #b9b9b9;
-   margin-bottom: 20px;
+   margin-bottom: 150px;
 }
 
 .copy {
