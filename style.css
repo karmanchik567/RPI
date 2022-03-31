@@ -56,6 +56,11 @@ a.nav_link {
    text-decoration: none;
 }
 
+a.nav_link:hover {
+   background-color: white;
+   color: #ef5966;
+}
+
 a.nav_link:first-child {
    padding-right: 0px;
 }
@@ -121,6 +126,7 @@ a.menu-btn {
    line-height: 71px;   
    text-align: center;
    display: inline-block;
+   text-decoration: none;
 }
 
 a:hover {
@@ -422,7 +428,7 @@ span.new_prod_text {
 .left_button {
    position: relative;
    left: 845px;
-   top: 25px;
+   top: 26px;
    width: 70px;
    height: 79px;
    background-color: #05aecc;
@@ -438,7 +444,7 @@ span.new_prod_text {
 .right_button {
    position: relative;
    left: 845px;
-   top: 25px;
+   top: 26px;
    width: 70px;
    height: 79px;
    background-color: #05aecc;
@@ -488,7 +494,7 @@ span.new_prod_text {
 .left_button1 {
    position: relative;
    left: 787px;
-   top: 25px;
+   top: 26px;
    width: 70px;
    height: 79px;
    background: url("images/left.png") #05aecc center center no-repeat;
@@ -497,7 +503,7 @@ span.new_prod_text {
 .right_button1 {
    position: relative;
    left: 787px;
-   top: 25px;
+   top: 26px;
    width: 70px;
    height: 79px;
    background: url("images/right.png") #05aecc center center no-repeat;
