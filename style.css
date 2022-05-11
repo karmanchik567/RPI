@@ -134,7 +134,7 @@ a.nav_logo {
    color: #ffffff;
 }
 
-.category_btns {   
+.category_btns {
    height: 70px;
    display: flex;
    justify-content: space-between;
@@ -145,7 +145,7 @@ a.nav_logo {
 a.menu-btn {
    background: rgb(5, 174, 204);
    color: white;
-   line-height: 71px;   
+   line-height: 71px;
    text-align: center;
    display: inline-block;
    text-decoration: none;
@@ -266,7 +266,7 @@ p.man_texts {
    height: 171px;
    margin: 0 5px 5px 0;
    padding: 51px 54px 49px 57px;
-   background-color: #05aecc;   
+   background-color: #05aecc;
 }
 
 .big_red_block:hover {
@@ -999,4 +999,57 @@ span.red {
 
 a.rss:hover, a.face:hover, a.twi:hover, a.flick:hover, a.google:hover {
    background-color: white;
+}
+
+.modal {
+   width: 100%;
+   height: 100vh;
+   display: none;
+   position: fixed;
+   z-index: 1000;
+   left: 0;
+   top: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+   background-color: #05aecc;
+   margin: auto auto;
+   width: 25%;
+   height: 60vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.close {
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+   margin-left: 90px;
+}
+
+.top_modal {
+   display: flex;
+   flex-direction: raw;
+   margin-bottom: 50px;
+}
+
+.mod_registr {
+   font-size: 30px;
+   text-align: center;
+   padding-top: 20px;
+   padding-left: 28%;
+   color: white;
+}
+
+form {
+   margin: 0 auto;
+}
+
+form button {
+   margin-left: auto;
+   margin-left: 50px;
+   width: 70px;
+   height: 30px;
+   font-weight: bold;
 }
